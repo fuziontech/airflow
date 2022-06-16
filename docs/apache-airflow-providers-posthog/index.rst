@@ -73,7 +73,7 @@ Requirements
 PIP package           Version required
 ====================  ==================
 ``apache-airflow``    ``>=2.2.0``
-``posthog``  ``>=1.4.9``
+``posthog``           ``>=1.4.9``
 ====================  ==================
 
 .. include:: ../../airflow/providers/posthog/CHANGELOG.rst
