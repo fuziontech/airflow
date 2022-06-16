@@ -20,7 +20,7 @@
 Package apache-airflow-providers-posthog
 ------------------------------------------------------
 
-`Segment <https://posthog.com/>`__
+`PostHog <https://posthog.com/>`__
 
 
 This is detailed commit list of changes for versions provider package: ``posthog``.
