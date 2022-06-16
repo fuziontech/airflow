@@ -17,8 +17,8 @@
 # under the License.
 #
 """
-This module contains a Segment Hook
-which allows you to connect to your Segment account,
+This module contains a PostHog Hook
+which allows you to connect to your PostHog account,
 retrieve data from it or write to that file.
 
 NOTE:   this hook also relies on the PostHog python library package:
@@ -47,7 +47,7 @@ class PostHogHook(BaseHook):
 
     .. note::
         You must include a JSON structure in the `Extras` field.
-        We need a user's security token to connect to Segment.
+        We need a user's security token to connect to PostHog.
         So we define it in the `Extras` field as:
         `{"write_key":"YOUR_SECURITY_TOKEN"}`
     """
