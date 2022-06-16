@@ -248,6 +248,8 @@ Those are extras that add dependencies needed for integration with other softwar
 +---------------------+-----------------------------------------------------+-------------------------------------------+
 | postgres            | ``pip install 'apache-airflow[postgres]'``          | PostgreSQL operators and hook             |
 +---------------------+-----------------------------------------------------+-------------------------------------------+
+| posthog             | ``pip install 'apache-airflow[posthog]'``           | PostHog operators and hook                |
++---------------------+-----------------------------------------------------+-------------------------------------------+
 | presto              | ``pip install 'apache-airflow[presto]'``            | All Presto related operators & hooks      |
 +---------------------+-----------------------------------------------------+-------------------------------------------+
 | redis               | ``pip install 'apache-airflow[redis]'``             | Redis hooks and sensors                   |

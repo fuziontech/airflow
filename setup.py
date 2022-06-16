@@ -490,6 +490,9 @@ plexus = [
 postgres = [
     'psycopg2-binary>=2.7.4',
 ]
+posthog = [
+    'posthog>=1.4.9',
+]
 presto = [
     'presto-python-client>=0.8.2',
     pandas_requirement,
@@ -727,6 +730,7 @@ PROVIDERS_REQUIREMENTS: Dict[str, List[str]] = {
     'papermill': papermill,
     'plexus': plexus,
     'postgres': postgres,
+    'posthog': posthog,
     'presto': presto,
     'qubole': qubole,
     'redis': redis,

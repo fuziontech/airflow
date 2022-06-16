@@ -78,6 +78,7 @@ body:
         - papermill
         - plexus
         - postgres
+        - posthog
         - presto
         - qubole
         - redis
